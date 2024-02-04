@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regal Liquors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Regal Liquors</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="search.html">Search</a></li>
+          <li><a href="add.html">Add Bottle</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="search-section">
+        <h2>Search Bottles</h2>
+        <input type="text" id="searchInput" placeholder="Enter bottle name">
+        <button onclick="searchBottles()">Search</button>
+        <ul id="searchResults"></ul>
+      </section>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

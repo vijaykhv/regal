@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regal Liquors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Regal Liquors</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="search.html">Search</a></li>
+          <li><a href="add.html">Add Bottle</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+        <section class="add-section">
+          <h2>Add Bottle</h2>
+          <form id="addBottleForm" onsubmit="addBottle(); return false;">
+            <label for="bottleName">Name:</label>
+            <input type="text" id="bottleName" placeholder="Enter bottle name">
+            <label for="bottleLocation">Location:</label>
+            <input type="text" id="bottleLocation" placeholder="Enter bottle location">
+            <button type="submit">Add</button>
+          </form>
+        </section>
+      </main>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
